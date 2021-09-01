@@ -48,92 +48,51 @@ border-spacing: 0;
 
 /* Start of CSS doc*/
 
+html{
+    width: 100%;
+    height: 100%;
+}
+
 body {
-
-    position:relative;
+    width: 100%;
+    height: 100%;
 }
 
-li {
-
-    display: inline;
-    vertical-align:middle;
-
+.Viewport {
+display: block;
+position:relative;
+width: 100%;
+height: 100%;
+border: 1px solid rgb(233, 12, 12);
 }
 
-#upper-menu {
-
-   display: flex;
-   border: 1px solid green;
-   justify-content:space-between;
-
+.upper-menu {
+    display: flex;
+    justify-content: space-between;
 }
 
 #upper-menu1 {
-    width: 200px;
-    display: flex;
-    flex-direction: row;
-    border: 1px solid;
-   }
+ display: flex;
+ padding-left: 1rem;
+ width: 7rem;
+ border: 1px solid rgb(23, 219, 16);
+ align-items: center;
+ justify-content:space-between;
+}
 
 #upper-menu2 {
-    
-    border: 1px solid;
-   
+display: flex;
+padding-right: 1rem;
+width: 15rem;
+align-items: center;
+justify-content:space-between;
+border: 1px solid rgba(186, 224, 17, 0.979);
 }
 
+.center {
 
-#GLogo {
- text-align:center;
- border: 1px solid red;
+display: grid;
+justify-content: center;
+align-items: center;
 
-}
-
-
-#search{
-    border: 1px solid red;
-    display: flex;
-    justify-content: space-between;
-}   
- 
-
-#inp{
-
-    width: 582px;
-    height: 34px;
-    border: 1px solid blue;
-    
-}
-
-#icon-search {
-    border: 1px solid blue;
-    
-}
-
-#icon-mic {
-    border: 1px solid blue;
-
-}
-
- button 
-{
-
-   background-color: #4285f4;
-}
-
-#under-search-1 {
-  
-    background-color: rgb(202, 200, 200);
-   
-}
-
-#under-search-2 {
-
-    background-color: rgb(202, 200, 200);
-
-}
-
-#lower-menu {
-    display: flex;
-   border: 1px solid green;
-   justify-content:space-between;
 }
