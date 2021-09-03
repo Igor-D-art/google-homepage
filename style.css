@@ -125,7 +125,7 @@ padding-top: 109px;
 
 #inp-container{
 display: flex;
-justify-content:space-around;
+justify-content: space-between;
 border: 1.5px solid rgb(190, 190, 190);
 width: 520px;
 height: 44px;
@@ -145,8 +145,7 @@ padding: 7px;
 
 
 #inp {
-width: 450px;
-height: 36px;
+flex-grow: 1;
 border: 0px;
 margin: auto;
 outline: none;
