@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>   
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device width, initial-scale=0">
     <title>Google search webpage design</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="Viewport"> 
-
 <div class="upper-menu">
     <div id="upper-menu1">
-           <a class="left-up-men" >About</a> 
-           <a class="left-up-men" >Store</a> 
+           <a href="#" class="left-up-men" >About</a> 
+           <a href="#" class="left-up-men" >Store</a> 
    </div>
 
     <div id="upper-menu2"> 
-            <a class="right-up-men" >About</a> 
-            <a class="right-up-men" >Images</a>
-            <a class="right-up-men"><img  src="Images/outline_apps_black_24dp.png"></a>
-            <button>Sign In</button>
+            <a href="#" class="right-up-men" >About</a> 
+            <a href="#" class="right-up-men" >Images</a>
+            <a href="#" class="right-up-men"><img id="apps" src="Images/outline_apps_black_24dp.png"></a>
+            <button id="sign-in">Sign In</button>
     </div>
 </div>
 
@@ -33,18 +32,18 @@
     <div class="input"> 
         
       <div id="inp-container">
-        <input id="inp" type="text" >
-        <div id="icons">
-            <img src="Images/search_black_24dp.svg">
-            <img src="Images/mic.png">
-        </div>
+        
+            <img class="inp-img" src="Images/search_black_24dp.svg">
+            <input id="inp" type="text" >
+            <img class="inp-img" src="Images/mic.png">
+       
       </div>
     </div>  
 
 <div class="buttons">
     <div id="button-container">
-   <div><button id="under-search-1">Google Search</button></div>
-   <div><button id="under-search-2">I'm feeling lucky</button></div>
+   <div><button class="und-search-but">Google Search</button></div>
+   <div><button class="und-search-but">I'm feeling lucky</button></div>
    </div>
 </div>
   
@@ -61,7 +60,6 @@
     </div>
 </div>
  
-</div>
 
 </body>
 
